@@ -1,35 +1,72 @@
-# Stark Theme for Zed
+# Stark Theme
 
-A warm, paper-like theme with purple accents for the Zed editor.
+A warm, paper-like theme with purple accents. Available in light and dark variants.
 
 ## Variants
 
 ### Stark Light
 A warm, cream-toned light theme
 
-![Stark Light](light.png)
+![Stark Light](assets/light.png)
 
 ### Stark Dark
 A cozy dark theme with warm undertones
 
-![Stark Dark](dark.png)
-
-## Demo
-
-[Live Preview on Zed Themes](https://zed-themes.com/themes/qyuI0kKKBwhY40baXKZNw)
+![Stark Dark](assets/dark.png)
 
 ## Installation
 
-### From Zed Extensions
+### Zed
+
+#### From Zed Extensions
 1. Open Zed
 2. Go to Extensions (cmd+shift+x)
 3. Search for "Stark"
 4. Click Install
 
-### Manual Installation
-1. Clone this repository
-2. Copy `themes/stark.json` to `~/.config/zed/themes/`
-3. Restart Zed and select the theme from settings
+#### Manual Installation
+1. Copy the `editors/zed` directory contents to your Zed extensions folder
+2. Restart Zed and select the theme from settings
+
+### VS Code
+
+#### From VS Code Marketplace
+1. Open VS Code
+2. Go to Extensions (cmd+shift+x)
+3. Search for "Stark Theme"
+4. Click Install
+
+#### Manual Installation
+1. Copy the `editors/vscode` directory to `~/.vscode/extensions/stark-theme`
+2. Restart VS Code and select the theme from Color Theme settings
+
+## Project Structure
+
+```
+stark-theme/
+├── assets/              # Theme preview images
+│   ├── light.png
+│   └── dark.png
+├── editors/
+│   ├── zed/             # Zed editor theme
+│   │   ├── extension.toml
+│   │   └── themes/
+│   │       └── stark.json
+│   └── vscode/          # VS Code theme
+│       ├── package.json
+│       └── themes/
+│           ├── stark-light.json
+│           └── stark-dark.json
+├── LICENSE
+└── README.md
+```
+
+## Adding Support for New Editors
+
+To add support for a new editor:
+1. Create a new directory under `editors/` with the editor name
+2. Add the theme files in the format required by that editor
+3. Update this README with installation instructions
 
 ## License
 

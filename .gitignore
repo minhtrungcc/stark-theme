@@ -13,4 +13,8 @@
 target/
 *.wasm
 
+# Node modules (for VSCode extension development)
+node_modules/
+
+# Claude Code
 .claude

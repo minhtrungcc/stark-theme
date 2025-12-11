@@ -1,0 +1,40 @@
+{
+  "name": "stark-theme",
+  "displayName": "Stark Theme",
+  "description": "A warm, paper-like theme with purple accents. Available in light and dark variants.",
+  "version": "1.0.0",
+  "publisher": "stark",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "color-theme",
+    "light",
+    "dark",
+    "warm",
+    "paper"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Stark Light",
+        "uiTheme": "vs",
+        "path": "./themes/stark-light.json"
+      },
+      {
+        "label": "Stark Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/stark-dark.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/minhtrungcc/stark-theme"
+  },
+  "license": "MIT"
+}

@@ -3,7 +3,7 @@ name = "stark"
 version = "0.1.0"
 description = "A warm, paper-like theme with purple accents for Zed"
 authors = ["minhtrungcc"]
-repository = "https://github.com/minhtrungcc/zed-stark-theme"
+repository = "https://github.com/minhtrungcc/stark-theme"
 license = "MIT"
 
 [themes]
