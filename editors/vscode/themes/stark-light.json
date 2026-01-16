@@ -234,7 +234,11 @@
     },
     {
       "name": "Keyword Control",
-      "scope": ["keyword.control", "keyword.operator.new", "keyword.operator.expression"],
+      "scope": [
+        "keyword.control",
+        "keyword.operator.new",
+        "keyword.operator.expression"
+      ],
       "settings": {
         "foreground": "#9b6bb8"
       }
@@ -255,7 +259,11 @@
     },
     {
       "name": "Function",
-      "scope": ["entity.name.function", "support.function", "meta.function-call"],
+      "scope": [
+        "entity.name.function",
+        "support.function",
+        "meta.function-call"
+      ],
       "settings": {
         "foreground": "#5a7cc7"
       }
@@ -377,7 +385,8 @@
       "name": "Link Text",
       "scope": ["string.other.link", "markup.underline.link"],
       "settings": {
-        "foreground": "#7c5cba"
+        "foreground": "#7c5cba",
+        "fontStyle": "italic"
       }
     },
     {
@@ -391,6 +400,7 @@
       "name": "Emphasis",
       "scope": ["markup.italic"],
       "settings": {
+        "foreground": "#8a6ab5",
         "fontStyle": "italic"
       }
     },
@@ -398,7 +408,15 @@
       "name": "Strong",
       "scope": ["markup.bold"],
       "settings": {
+        "foreground": "#c75a5a",
         "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Bold Punctuation",
+      "scope": ["punctuation.definition.bold.markdown"],
+      "settings": {
+        "foreground": "#c75a5a"
       }
     },
     {
@@ -412,7 +430,18 @@
       "name": "Code Block",
       "scope": ["markup.fenced_code.block", "markup.raw.block"],
       "settings": {
-        "foreground": "#3d3a36"
+        "foreground": "#5a7cc7"
+      }
+    },
+    {
+      "name": "List Marker",
+      "scope": [
+        "punctuation.definition.list.begin.markdown",
+        "markup.list.numbered.markdown punctuation.definition",
+        "markup.list.unnumbered.markdown punctuation.definition"
+      ],
+      "settings": {
+        "foreground": "#9b6bb8"
       }
     },
     {
@@ -459,7 +488,11 @@
     },
     {
       "name": "Import",
-      "scope": ["keyword.control.import", "keyword.control.export", "keyword.control.from"],
+      "scope": [
+        "keyword.control.import",
+        "keyword.control.export",
+        "keyword.control.from"
+      ],
       "settings": {
         "foreground": "#9b6bb8"
       }
@@ -473,7 +506,10 @@
     },
     {
       "name": "CSS Property",
-      "scope": ["support.type.property-name.css", "support.type.vendored.property-name.css"],
+      "scope": [
+        "support.type.property-name.css",
+        "support.type.vendored.property-name.css"
+      ],
       "settings": {
         "foreground": "#5a7cc7"
       }
@@ -494,7 +530,10 @@
     },
     {
       "name": "CSS Selector",
-      "scope": ["entity.other.attribute-name.class.css", "entity.other.attribute-name.id.css"],
+      "scope": [
+        "entity.other.attribute-name.class.css",
+        "entity.other.attribute-name.id.css"
+      ],
       "settings": {
         "foreground": "#7c5cba"
       }
