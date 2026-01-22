@@ -2,7 +2,7 @@
   "name": "stark-theme",
   "displayName": "Purple Stark Theme",
   "description": "A warm, paper-like theme with purple accents. Available in light and dark variants.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "publisher": "MTCC",
   "icon": "icon.png",
   "engines": {

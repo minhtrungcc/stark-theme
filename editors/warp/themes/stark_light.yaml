@@ -1,0 +1,29 @@
+# Stark Light Theme for Warp
+# A warm, paper-like theme with purple accents
+
+name: Stark Light
+accent: '#7c5cba'
+cursor: '#7c5cba'
+background: '#fdfcfa'
+foreground: '#3d3a36'
+details: lighter
+
+terminal_colors:
+  normal:
+    black: '#3d3a36'
+    red: '#c75a4d'
+    green: '#5a9a52'
+    yellow: '#b8943a'
+    blue: '#5a7cc7'
+    magenta: '#9b6bb8'
+    cyan: '#4a9a9a'
+    white: '#fdfcfa'
+  bright:
+    black: '#6b6660'
+    red: '#e8a59c'
+    green: '#a8d4a2'
+    yellow: '#e5cf8a'
+    blue: '#a5bbe8'
+    magenta: '#d4b8e8'
+    cyan: '#98d4d4'
+    white: '#ffffff'

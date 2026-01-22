@@ -1,0 +1,29 @@
+# Stark Dark Theme for Warp
+# A warm, paper-like dark theme with purple accents
+
+name: Stark Dark
+accent: '#b898e0'
+cursor: '#b898e0'
+background: '#22201c'
+foreground: '#e8e4df'
+details: darker
+
+terminal_colors:
+  normal:
+    black: '#22201c'
+    red: '#e07a6d'
+    green: '#7cc070'
+    yellow: '#d8b85a'
+    blue: '#7a9ce0'
+    magenta: '#b890d8'
+    cyan: '#68c0c0'
+    white: '#e8e4df'
+  bright:
+    black: '#706a62'
+    red: '#f0a090'
+    green: '#a8dca0'
+    yellow: '#f0d888'
+    blue: '#a8c4f0'
+    magenta: '#d8b8f0'
+    cyan: '#98e0e0'
+    white: '#ffffff'
