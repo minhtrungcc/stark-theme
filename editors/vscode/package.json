@@ -1,8 +1,8 @@
 {
   "name": "stark-theme",
   "displayName": "Purple Stark Theme",
-  "description": "A warm, paper-like theme with purple accents. Available in light and dark variants.",
-  "version": "1.0.4",
+  "description": "A warm, paper-like theme with purple accents. Available in light, dark, and burgundy variants.",
+  "version": "1.0.5",
   "publisher": "MTCC",
   "icon": "icon.png",
   "engines": {
@@ -17,7 +17,8 @@
     "light",
     "dark",
     "warm",
-    "paper"
+    "paper",
+    "burgundy"
   ],
   "contributes": {
     "themes": [
@@ -30,6 +31,11 @@
         "label": "Purple Stark Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/stark-dark.json"
+      },
+      {
+        "label": "Stark Burgundy",
+        "uiTheme": "vs-dark",
+        "path": "./themes/stark-burgundy.json"
       }
     ]
   },

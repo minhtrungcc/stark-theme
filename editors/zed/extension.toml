@@ -1,6 +1,6 @@
 [package]
 name = "stark"
-version = "0.1.0"
+version = "0.2.0"
 description = "A warm, paper-like theme with purple accents for Zed"
 authors = ["minhtrungcc"]
 repository = "https://github.com/minhtrungcc/stark-theme"

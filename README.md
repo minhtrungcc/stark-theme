@@ -1,6 +1,6 @@
 # Stark Theme
 
-A warm, paper-like theme with purple accents. Available in light and dark variants.
+A warm, paper-like theme with purple accents. Available in light, dark, and burgundy variants.
 
 ## Multi-Editor Support
 
@@ -24,6 +24,10 @@ A warm, cream-toned light theme
 A cozy dark theme with warm undertones
 
 ![Stark Dark](assets/dark.png)
+
+### Stark Burgundy
+
+A deep plum/burgundy theme (`#6B2D5B`) with warm cream/gold foreground and accents (`#E8D5B7`)
 
 ## Installation
 
