@@ -1,0 +1,29 @@
+# Stark Burgundy Theme for Warp
+# A deep plum/burgundy theme with warm cream and gold accents
+
+name: Stark Burgundy
+accent: '#f2e2c8'
+cursor: '#f2e2c8'
+background: '#6b2d5b'
+foreground: '#e8d5b7'
+details: darker
+
+terminal_colors:
+  normal:
+    black: '#63284f'
+    red: '#f2907e'
+    green: '#b8d18a'
+    yellow: '#e8c86a'
+    blue: '#9fc4e8'
+    magenta: '#f0a9c4'
+    cyan: '#8ed6c8'
+    white: '#e8d5b7'
+  bright:
+    black: '#b08a97'
+    red: '#f7b3a4'
+    green: '#d2e5ae'
+    yellow: '#f5df9a'
+    blue: '#c2dbf2'
+    magenta: '#f7c8db'
+    cyan: '#b5e7dd'
+    white: '#fffaf0'
